@@ -1,0 +1,141 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo-header {
+    width: 20%;
+    padding: 0 0 0 2em;
+}
+
+.caixa {
+    padding: 1.5% 0 1.5% 0;
+    width: 100%;
+}
+
+nav {
+    position: absolute;
+    top: 1.5em;
+    right: 2em;
+}
+
+nav a {
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px 15px;
+    border: 2px;
+    border-radius: 30px;
+}
+
+nav a:hover {
+    background: rgb(120, 120, 120, 0.25);
+    cursor: pointer;
+}
+
+/* Home */ 
+
+.landing-page {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+#imagem-capa {
+    width: 100%;
+    position: absolute;
+    top: -17.5%;
+    z-index: -1;
+}
+
+.titulo-principal-textbox {
+    width: 30%;
+    position: absolute;
+    padding-left: 70%;
+    top: 20%;
+}
+
+.titulo-principal {
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.titulo-principal em {
+    color:#5CC6D0;
+    font-weight: 800;
+}
+
+#seta-navegacao {
+    width: 5%;
+    position: relative;
+    margin: 35% 0 2.5% 2%;
+    z-index: 10;
+}
+
+#seta-navegacao:hover {
+    border-radius: 10px;
+    background: rgb(120, 120, 120, 0.25);
+    cursor: pointer;
+}
+
+/* Quem Somos */
+
+
+.quem-somos {
+    width: 100%;
+}
+
+.texto-quem-somos {
+    width: 50%;
+    position: absolute;
+    margin: 50% 0 0 0;
+}
+
+.titulos-secundarios {
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+h3 {
+    padding: 0 10% 10% 10%;
+}
+
+.frase-quem-somos {
+    font-size: 1.8vw;
+    padding: 0 0 10% 10%;
+}
+
+.link-quem-somos {
+    font-size: 1.8vw;
+    padding: 10% 0 0 10%;
+}
+
+#imagem-quem-somos {
+    width: 35%;
+    padding: 0 7.5%;
+    margin: 50% 0 0 50%;
+}
+
+/*Patrocinadores*/
+
+.patrocinadores {
+    text-align: center;
+    padding: 5% 0;
+}
+
+/* Footer */
+
+footer {
+    padding: 2% 0;
+    text-align: center;
+}
+
+.copyright {
+    color: #000000;
+    font-size: 1vw;
+    margin: 2% 0;
+}
+
+#logo-rodape {
+    width: 15%;
+}

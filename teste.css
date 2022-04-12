@@ -1,0 +1,318 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: 100vh;
+    background: no-repeat center/cover url("capa.JPG");
+}
+
+#logo-header {
+    width: 20vh;
+    padding: 0 0 0 2em;
+}
+
+.caixa {
+    padding: 1.5% 0 1.5% 0;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    background:rgb(0, 0, 0, 0)
+}
+
+nav {
+    position: absolute;
+    top: 1.5em;
+    right: 2em;
+}
+
+nav a {
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px 15px;
+    border: 2px;
+    border-radius: 30px;
+}
+
+nav a:hover {
+    background: rgb(120, 120, 120, 0.25);
+    cursor: pointer;
+}
+
+.header-content {
+    width: 30%;
+    position: absolute;
+    padding-left: 55%;
+    top: 30%;
+    text-align: right;
+}
+
+.header-content h1 {
+    font-size: 4vh;
+    font-weight: 500;
+}
+
+.header-content h1 em {
+    color:#5CC6D0;
+    font-weight: 800;
+}
+
+.arrow-container {
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#seta-navegacao {
+    width: 10vh;
+    margin: 70vh 0 0 15%;
+}
+
+#seta-navegacao:hover {
+    border-radius: 10px;
+    background: rgb(120, 120, 120, 0.25);
+    cursor: pointer;
+}
+
+/* QUEM SOMOS */
+
+.quem-somos {
+    padding: 5% 10% 2%;
+}
+
+.container-quem-somos {
+    width: 100%;
+}
+
+.titulos-secundarios {
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+.frase-quem-somos {
+    font-size: 1.8vw;
+    padding: 5% 0;
+    width: 40%
+}
+
+.link-quem-somos {
+    font-size: 1.8vw;
+}
+
+#imagem-quem-somos {
+    width: 35%;
+    float: right;
+    padding: 0 5%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+}
+
+/* PATROCINADORES */
+
+.patrocinadores {
+    text-align: center;
+    padding: 2% 0;
+}
+
+h2 {
+    margin: 0 0 2% 0;
+}
+
+.media-scroller {
+    display: grid;
+    gap: 2%;
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
+.media-scroller::-webkit-scrollbar {
+    /*display: none;*/
+}
+
+.media-element {
+    padding: 10%;
+    background: rgb(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.media-element > img {
+    inline-size: 100%;
+}
+
+/* PROTÓTIPOS */
+
+.prototipos {
+    padding: 5% 10% 2%;
+}
+
+.container-prototipos {
+    width: 100%;
+    padding-bottom: 15%;
+}
+
+.frase-prototipos {
+    font-size: 1.8vw;
+    padding: 5%;
+}
+
+.link-prototipos {
+    font-size: 1.8vw;
+}
+
+#imagem-prototipos {
+    width: 35%;
+    float: left;
+    padding: 0 10% 0 0;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+}
+
+/* EVENTOS */
+
+.eventos {
+    padding: 5% 10% 2%;
+}
+
+.container-eventos {
+    width: 100%;
+}
+
+.frase-eventos {
+    font-size: 1.8vw;
+    padding: 5% 0;
+    width: 40%
+}
+
+.link-eventos {
+    font-size: 1.8vw;
+}
+
+#imagem-eventos {
+    width: 35%;
+    float: right;
+    padding: 0 5%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+}
+
+/* NA MIDIA */
+
+.midia {
+    padding: 5% 0;
+}
+
+.midia h2 {
+    text-align: center;
+}
+
+.midia-container {
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    padding: 60px 0;
+}
+
+.midia-card:nth-child(1) {
+    margin-left: auto;
+}
+
+.midia-card {
+    width: 300px;
+    height: 400px;
+    background: #ffffff;
+    border-radius: 20px 0;
+    margin: auto;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 99px 0 rgba(0, 0, 0, 0.7);
+    margin-left: -150px;
+    transition: all ease-out 0.5s;
+}
+
+.midia-card:hover {
+    margin-right: 150px;
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+
+.midia-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.data {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 30%;
+}
+
+.data time {
+    color: #5CC6D0;
+    padding-left: 10px;
+}
+
+.midia-content p {
+    font-size: 18px;
+    line-height: 18px;
+    display: block;
+    height: 110px;
+    color: rgb(0, 0, 0);
+}
+
+#imagem-midia {
+    width: 100%;
+    border-radius: 20px 0 0;
+}
+
+
+/* CURSOS */
+
+/* PROTÓTIPOS */
+
+.cursos {
+    padding: 5% 10% 2%;
+}
+
+.container-cursos {
+    width: 100%;
+    padding-bottom: 15%;
+}
+
+.frase-cursos {
+    font-size: 1.8vw;
+    padding: 5%;
+}
+
+.link-cursos {
+    font-size: 1.8vw;
+}
+
+#imagem-prototipos {
+    width: 35%;
+    float: left;
+    padding: 0 10% 0 0;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+}
+
+/* RESPONSIVIDADE */
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+    header {
+        background: gray;
+    }
+}
+

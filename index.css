@@ -1,0 +1,104 @@
+body {
+    font-family: 'Montserrat', sans-serif;   
+}
+
+#capa {
+    width: 100%;
+    top: 0px;
+    z-index: -1;
+}
+
+#logo {
+    width: 20%;
+}
+
+.caixa {
+    padding: 20px;
+    position: absolute;
+    width: 1140px;
+    margin: 0 auto;
+    top: 20px;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 2px;
+    border-radius: 30px;
+}
+
+nav a:hover {
+    background-color: #ecf4fc;
+}
+
+.frase {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 350px;
+    right: 200px;
+}
+
+.frase em {
+    color:#5CC6D0;
+}
+
+#seta {
+    width: 100px;
+    position: absolute;
+    top: 700px;
+    left: 150px;
+}
+
+.quembox {
+    margin-top: 50px;
+    margin-left: 100px;
+    height: 600px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.quembox p {
+    padding-top: 40px;
+    width: 500px;
+    font-size: 25px;
+}
+
+#quem {
+    width: 500px;
+    position: relative;
+    top: -400px;
+    left: 600px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #000000;
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+#logo-rodape {
+    width: 15%;
+}
