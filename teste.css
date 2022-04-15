@@ -133,7 +133,7 @@ h2 {
 }
 
 .media-scroller::-webkit-scrollbar {
-    /*display: none;*/
+    display: none;
 }
 
 .media-element {
